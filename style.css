@@ -18,13 +18,22 @@
   --pinkshadow: #ffa8c6;
   --lightbshadow: rgba(0,0,0,0.15);
 }
+#preloader{
+  background: rgb(41, 217, 230) url('loader.gif') no-repeat center center;
+  background-size: 40%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
 body{
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   /* background: linear-gradient(var(--pink) 0%, var(--violet) 100%); */
-  background: url('background.gif') no-repeat center center/cover;
+  /* background: url('background.gif') no-repeat center center/cover; */
+  background: url('https://player.vimeo.com/external/570718544.sd.mp4?s=32182e47a6d54d229b105d9c544f119122847996&profile_id=165') ;
 }
 .wrapper{
   width: 380px;

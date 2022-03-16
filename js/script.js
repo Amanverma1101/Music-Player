@@ -15,7 +15,10 @@ closemoreMusic = musicList.querySelector("#close");
 let musicIndex = Math.floor((Math.random() * allMusic.length) + 1);
 isMusicPaused = true;
 
+var loader = document.getElementById("preloader");
+
 window.addEventListener("load", ()=>{
+  loader.style.display='none';
   loadMusic(musicIndex);
   playingSong(); 
 });
