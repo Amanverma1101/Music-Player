@@ -32,8 +32,7 @@ body{
   justify-content: center;
   min-height: 100vh;
   /* background: linear-gradient(var(--pink) 0%, var(--violet) 100%); */
-  /* background: url('background.gif') no-repeat center center/cover; */
-  background: url('https://player.vimeo.com/external/570718544.sd.mp4?s=32182e47a6d54d229b105d9c544f119122847996&profile_id=165') ;
+  background: url('background.gif') no-repeat center center/cover;
 }
 .wrapper{
   width: 380px;
